@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+3:I[4961,["905","static/chunks/905-e19454af5060a141.js","827","static/chunks/827-0aae01477509eede.js","177","static/chunks/app/layout-6c8c94d321e6915a.js"],"ThemeProvider"]
+4:I[145,["905","static/chunks/905-e19454af5060a141.js","827","static/chunks/827-0aae01477509eede.js","177","static/chunks/app/layout-6c8c94d321e6915a.js"],"default"]
+5:I[7121,[],""]
+6:I[4581,[],""]
+c:I[7123,[],""]
+:HL["/_next/static/css/b628319290743c86.css","style"]
+:HL["https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","style"]
+2:["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]
+0:{"P":null,"b":"YS5oB1dm0IDHC7-5ZpiVp","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b628319290743c86.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/quantum.png","type":"image/png+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":"$2"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":[["$","$L4",null,{"items":[{"title":"Home","type":"page","target":"home","href":"/"},{"title":"Call for Submissions","type":"page","target":"call-for-submissions","href":"/call-for-submissions"},{"title":"Registration","type":"page","target":"registration","href":"/registration"},{"title":"Program","type":"page","target":"program","href":"/program"},{"title":"Venue & Travel","type":"page","target":"venue-travel","href":"/venue-travel"},{"title":"Committees","type":"page","target":"committees","href":"/committees"},{"title":"Code of Conduct","type":"page","target":"code-of-conduct","href":"/code-of-conduct"}],"siteTitle":"Beyond IID 14","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],"$L7","$L8"]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$L9"]}]}]]}]]}],{"children":["$La",{},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[7694,["905","static/chunks/905-e19454af5060a141.js","827","static/chunks/827-0aae01477509eede.js","177","static/chunks/app/layout-6c8c94d321e6915a.js"],"default"]
+e:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","974","static/chunks/app/page-ec3ac1db9c7fede4.js"],"default"]
+11:I[484,[],"ViewportBoundary"]
+13:I[484,[],"MetadataBoundary"]
+14:"$Sreact.suspense"
+7:["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}]
+8:["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]
+9:["$","$Ld",null,{"lastUpdated":"March 10, 2026"}]
+f:Te50,### June 22 &ndash; June 26, 2026 | CUHK-Shenzhen, China
+
+"Beyond IID in Information Theory" started as a workshop in Cambridge, UK in 2013, organized by Nilanjana Datta and Renato Renner as a forum for the growing interest in information-theoretic problems and techniques that go beyond the strict asymptotic limit.
+The workshop bridges diverse fields, ranging from coding theory, Shannon theory in the finite block length regime and one-shot information theory to cryptography, thermodynamics and other resource theories.
+
+As the fourteenth in the series, the present workshop continues the tradition, bringing together specialists and students of Shannon theory, cryptography, mathematical physics, and thermodynamics, etc., with the aim of fostering collaboration in the field. Participation is open to all.
+
+*Note: ISIT 2026 will be held one week after in Guangzhou (next to Shenzhen).*
+
+## Important dates
+- <u>**Submission Deadline:** February 20, 2026 (Anywhere on Earth)</u>
+- **Notification of Accepted Talks**: April 5, 2026
+- **Registration Deadline**: May 15, 2026
+- **Conference Dates**: June 22 &ndash; June 26, 2026
+
+<u>**Submission server: [https://biid26.iro.umontreal.ca/](https://biid26.iro.umontreal.ca/)**</u>. Please refer to [Call for Submissions](/call-for-submissions) for details.
+
+**Contact:** [beyondiid2026@gmail.com](mailto:beyondiid2026@gmail.com)
+
+## Venue
+The Chinese University of Hong Kong, **Shenzhen**
+
+2001 Longxiang Road, Longgang District, Shenzhen, Guangdong, 518172, China
+
+<video src="cuhk-sz.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
+
+## Topics
+
+The topics covered under “Beyond IID” include but are not limited to the following:
+
+- Finite block length coding
+- Second, third and fourth order analysis
+- Strong converses
+- Shannon theory
+- Cryptography
+- New information tasks
+- One-shot information theory and unstructured channels
+- Information spectrum method
+- Entropy inequalities
+- Non-standard entropies (e.g. Rényi entropies, min-entropy, &hellip;)
+- Matrix analysis
+- Thermodynamics
+- Generalized resource theories
+- Physics of information
+
+## Previous BIID workshops
+
+- [Beyond IID 13](https://sites.google.com/view/beyondiid13) – Technical University of Munich, 2025
+- [Beyond IID 12](https://beyondiid2024.iquist.illinois.edu/) – University of Illinois Urbana-Champaign, 2024
+- [Beyond IID 11](https://sites.google.com/view/beyondiid11/beyond-iid-11) – Universität Tübingen, 2023
+- [Beyond IID 10](https://imt.sustech.edu.cn/) – Southern University of Science and Technology, 2022
+- [Beyond IID 9](https://cc.ee.ntu.edu.tw/~beyondiid9) – National Taiwan University, 2021
+- [Beyond IID 8](https://sites.google.com/view/beyondiid8) – Stanford University, 2020
+- [Beyond IID 7](https://www.uts.edu.au/globalassets/sites/default/files/2019-07/beyond-iid2019-program-and-presenters.pdf) – University of Technology Sydney, 2019
+- [Beyond IID 6](https://www.newton.ac.uk/event/mqiw05/) – Isaac Newton Institute, 2018
+- [Beyond IID 5](https://imsarchives.nus.edu.sg/oldwww2/events/2017/wbey/index.html) – National University of Singapore, 2017
+- [Beyond IID 4](https://sites.google.com/site/beyondiid4/) – Institut d'Estudis Catalans, Barcelona, 2016
+- [Beyond IID 3](https://www.birs.ca/events/2015/5-day-workshops/15w5120) – Banff International Research Station, 2015
+- [Beyond IID 2](https://web.archive.org/web/20150111231400/https://beyondiid.quantumlah.org/) – National University of Singapore, 2014
+- [Beyond IID](https://web.archive.org/web/20140510062052/http://www.statslab.cam.ac.uk/biid2013/) – University of Cambridge, 2013
+a:["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$Le",null,{"config":{"type":"text","title":"Beyond IID in Information Theory 14","source":"home.md"},"content":"$f"}]}],null,"$L10"]}]
+b:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}]}],null]}]
+16:I[484,[],"OutletBoundary"]
+10:["$","$L16",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+18:I[6869,[],"IconMark"]
+15:[["$","title","0",{"children":"Beyond IID 14"}],["$","meta","1",{"name":"description","content":"PhD student at the University of Example."}],["$","meta","2",{"property":"og:title","content":"Beyond IID 14"}],["$","meta","3",{"property":"og:description","content":"PhD student at the University of Example."}],["$","meta","4",{"property":"og:locale","content":"en_US"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Beyond IID 14"}],["$","meta","8",{"name":"twitter:description","content":"PhD student at the University of Example."}],["$","link","9",{"rel":"icon","href":"/quantum.png"}],["$","$L18","10",{}]]
+17:null
