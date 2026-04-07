@@ -2,10 +2,12 @@
 2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
 4:I[484,[],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:T986,- <u>**Submission server: [https://biid26.iro.umontreal.ca/](https://biid26.iro.umontreal.ca/)**</u>
+3:T9eb,All deadlines in Anywhere on Earth (AoE) time.
+- <u>**Submission Server: [https://biid26.iro.umontreal.ca/](https://biid26.iro.umontreal.ca/)**</u>
 - **Format:** Extended abstract (up to 3 pages excl. references) AND (arXiv link to OR copy of) full manuscript
-- <mark>**Deadline: February 20, 2026 (Anywhere on Earth)**</mark>
-- **Notification of acceptance:** April 5, 2026
+- <s>**Talk Submission Deadline:** February 20, 2026</s>
+- <s>**Notification of Accepted Talks:** April 5, 2026</s>
+- <u>**Poster Submission Deadline:** May 8, 2026</u>
 
 The Beyond IID in Information Theory workshop, the fourteenth in a series that started in 2013 in Cambridge, brings together specialists and students of Shannon theory, cryptography, mathematical physics, thermodynamics, etc., with the aim of fostering collaboration in the field. Participation is open to all. This year’s workshop will take place at the Chinese University of Hong Kong, Shenzhen from June 22 to June 26, 2026.
 
@@ -33,5 +35,5 @@ The application process asks for an extended abstract of up to three pages toget
 **Extended Abstract:** This should be at most three pages in length and contain a nontechnical and clear description of the results and main ideas. The page limit does not include references.
 
 **Technical Manuscript:** This is an appendix to the extended abstract describing the technical details of the work. This should only be included (in the same file – only one file to be uploaded) if the work is not yet published on an electronic archive. Otherwise, a reference to the published paper is preferred.
-0:{"buildId":"YS5oB1dm0IDHC7-5ZpiVp","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Call for Submissions","source":"call-for-submissions.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"1UITRQmD-5OKGuVJ6OnDO","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Call for Submissions","source":"call-for-submissions.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

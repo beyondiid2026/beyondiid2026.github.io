@@ -2,7 +2,7 @@
 2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
 5:I[484,[],"OutletBoundary"]
 6:"$Sreact.suspense"
-3:Te50,### June 22 &ndash; June 26, 2026 | CUHK-Shenzhen, China
+3:Tfd8,### June 22 &ndash; June 26, 2026 | CUHK-Shenzhen, China
 
 "Beyond IID in Information Theory" started as a workshop in Cambridge, UK in 2013, organized by Nilanjana Datta and Renato Renner as a forum for the growing interest in information-theoretic problems and techniques that go beyond the strict asymptotic limit.
 The workshop bridges diverse fields, ranging from coding theory, Shannon theory in the finite block length regime and one-shot information theory to cryptography, thermodynamics and other resource theories.
@@ -10,23 +10,30 @@ The workshop bridges diverse fields, ranging from coding theory, Shannon theory 
 As the fourteenth in the series, the present workshop continues the tradition, bringing together specialists and students of Shannon theory, cryptography, mathematical physics, and thermodynamics, etc., with the aim of fostering collaboration in the field. Participation is open to all.
 
 *Note: ISIT 2026 will be held one week after in Guangzhou (next to Shenzhen).*
+> The workshop will take place fully **in person** and no virtual participation options are planned.
 
-## Important dates
-- <u>**Submission Deadline:** February 20, 2026 (Anywhere on Earth)</u>
-- **Notification of Accepted Talks**: April 5, 2026
+## Important Dates
+All deadlines in Anywhere on Earth (AoE) time.
+- <s>**Talk Submission Deadline:** February 20, 2026</s>
+- <s>**Notification of Accepted Talks**: April 5, 2026</s>
+- <u>**Poster Submission Deadline**: May 8, 2026</u>
 - **Registration Deadline**: May 15, 2026
 - **Conference Dates**: June 22 &ndash; June 26, 2026
 
-<u>**Submission server: [https://biid26.iro.umontreal.ca/](https://biid26.iro.umontreal.ca/)**</u>. Please refer to [Call for Submissions](/call-for-submissions) for details.
+<u>**Submission Server: [https://biid26.iro.umontreal.ca/](https://biid26.iro.umontreal.ca/)**</u>. Please refer to [Call for Submissions](/call-for-submissions) for details.
 
 **Contact:** [beyondiid2026@gmail.com](mailto:beyondiid2026@gmail.com)
 
-## Venue
+## Conference Venue
+**Run Run Shaw International Conference Centre**
+
 The Chinese University of Hong Kong, **Shenzhen**
 
 2001 Longxiang Road, Longgang District, Shenzhen, Guangdong, 518172, China
 
 <video src="cuhk-sz.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
+
+> 📍 **Note for Navigation:** For precise location and navigation, please refer to **[AMap](https://ditu.amap.com/place/B0FFJ7O2H4)**.
 
 ## Topics
 
@@ -47,7 +54,7 @@ The topics covered under “Beyond IID” include but are not limited to the fol
 - Generalized resource theories
 - Physics of information
 
-## Previous BIID workshops
+## Previous BIID Workshops
 
 - [Beyond IID 13](https://sites.google.com/view/beyondiid13) – Technical University of Munich, 2025
 - [Beyond IID 12](https://beyondiid2024.iquist.illinois.edu/) – University of Illinois Urbana-Champaign, 2024
@@ -62,6 +69,6 @@ The topics covered under “Beyond IID” include but are not limited to the fol
 - [Beyond IID 3](https://www.birs.ca/events/2015/5-day-workshops/15w5120) – Banff International Research Station, 2015
 - [Beyond IID 2](https://web.archive.org/web/20150111231400/https://beyondiid.quantumlah.org/) – National University of Singapore, 2014
 - [Beyond IID](https://web.archive.org/web/20140510062052/http://www.statslab.cam.ac.uk/biid2013/) – University of Cambridge, 2013
-0:{"buildId":"YS5oB1dm0IDHC7-5ZpiVp","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Beyond IID in Information Theory 14","source":"home.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+0:{"buildId":"1UITRQmD-5OKGuVJ6OnDO","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Beyond IID in Information Theory 14","source":"home.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null

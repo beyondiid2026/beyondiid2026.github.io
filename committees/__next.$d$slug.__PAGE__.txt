@@ -2,7 +2,7 @@
 2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
 4:I[484,[],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:T553,## Program committee
+3:T553,## Program Committee
 - Ángela Capel Cuevas (University of Cambridge)
 - Hao-Chung Cheng (**Co-chair**, National Taiwan University)
 - Frédéric Dupuis (**Chair**, University of Montreal)
@@ -16,14 +16,14 @@
 - Mark Wilde (Cornell University)
 - Hayata Yamasaki (University of Tokyo)
 
-## Organizing committee
+## Organizing Committee
 - Kun Fang (The Chinese University of Hong Kong, Shenzhen)
 - Masahito Hayashi (**Chair**, The Chinese University of Hong Kong, Shenzhen; Shenzhen International Quantum Academy; Nagoya University)
 - Chandra Nair (The Chinese University of Hong Kong)
 - Xin Wang (The Hong Kong University of Science and Technology (Guangzhou))
 - Shenghao Yang (The Chinese University of Hong Kong, Shenzhen)
 
-## Steering committee
+## Steering Committee
 - Mario Berta (**Chair**, RWTH Aachen University) 
 - Ángela Capel Cuevas (University of Cambridge)
 - Serge Fehr (CWI & Leiden University)
@@ -32,5 +32,5 @@
 - Milan Mosonyi (Budapest University of Technology and Economics)
 - Marco Tomamichel (National University of Singapore)
 - Andreas Winter (University of Cologne)
-0:{"buildId":"YS5oB1dm0IDHC7-5ZpiVp","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Committees","source":"committees.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"1UITRQmD-5OKGuVJ6OnDO","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Committees","source":"committees.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null
