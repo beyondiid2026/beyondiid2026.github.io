@@ -2,7 +2,14 @@
 2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
 5:I[484,[],"OutletBoundary"]
 6:"$Sreact.suspense"
-3:T230e,## List of Talks
+3:T23a5,## Invited Speakers
+- Salman Beigi (to be confirmed)
+- Amin Aminzadeh Gohari 
+- Alexander Holevo (to be confirmed)
+- Ludovico Lami 
+- Benjamin Lovitz
+
+## List of Talks
 
 
 - <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Robustness of quantum data hiding against entangled catalysts and memory</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Aby Philip, Alexander Streltsov</span>
@@ -34,6 +41,6 @@
 - <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Exact finite group designs under symmetry</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Christopher Vairogs, Felix Leditzky</span>
 - <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Sandwiched Rényi divergence and the quantum central limit theorem</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Milad Moazami Goodarzi, Salman Beigi, Marco Tomamichel</span>
 - <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Bartosz Regula, Marco Tomamichel</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Discriminating idempotent quantum channels</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Satvik Singh, Bjarne Bergh</span>0:{"buildId":"48wd9KP8hqqIN9xXeGAE3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md","acceptedTalksSource":"biid26-accepted.json"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Discriminating idempotent quantum channels</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Satvik Singh, Bjarne Bergh</span>0:{"buildId":"QWYJb2kaqBKhsKmHcX3QL","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md","acceptedTalksSource":"biid26-accepted.json"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null
