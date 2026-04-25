@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T72c,## Student Travel Support
+
+To support the participation of early-career researchers, Beyond IID 14 offers travel support for students from overseas universities. This support includes local accommodation and a waiver of the conference registration fee.
+
+
+**Eligibility:** Applications are open to students from overseas universities. Priority will be given to:
+
+- authors or co-authors of accepted papers or posters at Beyond IID 14 who have limited financial means to attend the conference; and
+- applicants who can clearly demonstrate the academic benefits of attending Beyond IID 14.
+
+**Application Process:** To apply for student travel support, please send an email to [beyondiid2026@gmail.com](mailto:beyondiid2026@gmail.com) using the following subject line:
+
+- **Application for Student Travel Support - Full Name - Affiliation**
+
+Your application email should include:
+
+- your full name, affiliation, academic level, email address, and your supervisor's email address;
+- a brief statement describing your financial need;
+- your CV, attached as a PDF, including your educational background and scientific outputs; and
+- a signed supporting statement from your supervisor, attached as a PDF, confirming your eligibility, recommending your attendance at Beyond IID 14, and indicating the supervisor's commitment to providing additional support for your participation, such as round-trip airfare.
+
+**Deadline and Notification:** The application deadline is **May 11, 2026, AoE**. Late or incomplete applications will not be considered. Successful applicants will be notified by **May 13, 2026**.
+
+## Visa Application Letters
+
+If you need an invitation letter to apply for a Chinese visa to attend the conference, please get in touch with the local organizing committee at [beyondiid2026@gmail.com](mailto:beyondiid2026@gmail.com).
+0:{"buildId":"5fkItpOWpkYqKAbFxL6yS","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Participant Support","source":"participant-support.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
