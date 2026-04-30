@@ -28,5 +28,5 @@ Your application email should include:
 ## Visa Application Letters
 
 If you need an invitation letter to apply for a Chinese visa to attend the conference, please get in touch with the local organizing committee at [beyondiid2026@gmail.com](mailto:beyondiid2026@gmail.com).
-0:{"buildId":"5fkItpOWpkYqKAbFxL6yS","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Participant Support","source":"participant-support.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"qFSvZAfYgBzXmZVm-vez3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Participant Support","source":"participant-support.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null
