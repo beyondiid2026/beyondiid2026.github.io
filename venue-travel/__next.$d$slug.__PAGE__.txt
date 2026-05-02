@@ -100,6 +100,6 @@ Please make your reservation by contacting the hotel manager by email or phone.
 - **Email:** [519002031@qq.com](mailto:519002031@qq.com)
 
 
-0:{"buildId":"qFSvZAfYgBzXmZVm-vez3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Venue & Travel","source":"venue-travel.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+0:{"buildId":"MOfH0YViG3sL5f30tB9Rk","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Venue & Travel","source":"venue-travel.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null
