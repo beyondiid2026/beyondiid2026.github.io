@@ -1,46 +1,202 @@
 1:"$Sreact.fragment"
-2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
+2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-d5beca635efa4780.js"],"default"]
 5:I[484,[],"OutletBoundary"]
 6:"$Sreact.suspense"
-3:T239c,## Invited Speakers
-- Salman Beigi (to be confirmed)
-- Amin Aminzadeh Gohari 
-- Alexander Holevo (online)
-- Ludovico Lami 
-- Benjamin Lovitz
+3:T4ab2,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
+  <a href="#schedule-at-a-glance">Schedule at a Glance</a>
+  <a href="#invited-speakers">Invited Speakers</a>
+  <a href="#program">Program</a>
+  <a href="#talks-not-presented">Talks Not Presented</a>
+  <a href="#confirmed-poster-presentations">Confirmed Poster Presentations</a>
+</nav> -->
 
-## List of Talks
+<h2 id="schedule-at-a-glance">Schedule at a Glance</h2>
 
+A PDF version of the complete program is available here: <a href="/program/BIID14-program.pdf" download>download the complete program (PDF)</a>.
 
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Robustness of quantum data hiding against entangled catalysts and memory</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Aby Philip, Alexander Streltsov</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Sharp inequalities for Schur-convex functionals of partial traces over unitary orbits</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Pablo Costa Rico, Pavel Shteyner</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Uncloneable encryption from decoupling</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Archishna Bhattacharyya, Eric Culf</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Beyond Hoeffding and Chernoff: Trading conclusiveness for advantages in quantum hypothesis testing</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Kaiyuan Ji, Bartosz Regula</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">An almost complete picture of quantum state discrimination with composite correlated hypotheses</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Kun Fang, Masahito Hayashi</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Partial trace relations beyond normal matrices</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Pablo Costa Rico, Michael M. Wolf</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">A complete characterisation of conditional entropies</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Roberto Rubboli, Erkka Haapasalo, Marco Tomamichel</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Fundamental limits for thermodynamic control with quantum feedback</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Kaiyuan Ji, Gilad Gour, Mark M. Wilde</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Projections with respect to Bures distance and fidelity: Closed-forms and applications</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">A. Afham, Marco Tomamichel</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">The communication power of indefinite causal order</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Xuanqiang Zhao, Benchi Zhao, Cyril Branciard, Giulio Chiribella</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Improving quantum communication rates with permutation-invariant codes</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Sujeet Bhalerao, Felix Leditzky</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Power and limitations of distributed quantum state purification</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Benchi Zhao, Yu-Ao Chen, Xuanqiang Zhao, Chengkai Zhu, Giulio Chiribella, Xin Wang</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Emulation capacity between idempotent channels</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Idris Delsol, Omar Fawzi, Li Gao, Mizanur Rahaman</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Strong converse bounds on the classical identification capacity of the qubit depolarizing channel</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Liuhang Ye, Bjarne Bergh, Nilanjana Datta</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">The rate function for quantum state tomography</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Alexander Maloney, Arick Grootveld, Biao Chen, Venkata Gandikota, Jason Pollack, Haodong Yang</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">No practical quantum broadcasting: Even virtually</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Yunlong Xiao</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Universal classical-quantum channel resolvability and its application to universal private-channel coding</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Takaya Matsuura, Masahito Hayashi, Min-Hsiu Hsieh</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Tight any-shot quantum decoupling</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Mario Berta, Hao-Chung Cheng, Yongsheng Yao</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Randomness from causally independent processes</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Martin Sandfuchs, Carla Ferradini, Renato Renner</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Fundamental quality bound on optical quantum communication</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Tobias Rippchen, Ludovico Lami, Gerardo Adesso, Mario Berta</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">k-positivity and high-dimensional bound entanglement under symplectic group symmetry</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Sang-Jun Park</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Computational complexity of optimally encoding a qubit</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Idris Delsol, Omar Fawzi, Akshay Ramachandran</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">The strong converse exponent of composable randomness extraction against quantum side information</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Roberto Rubboli, Marco Tomamichel</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Reliability function of work extraction and beyond</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Kaito Watanabe, Bartosz Regula, Marco Tomamichel, Ryuji Takagi</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Subsystem quantum error correction for noisy quantum metrology</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Qiushi Liu, Sisi Zhou</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Random purification channel made simple</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Filippo Girardi, Francesco Anna Mele, Ludovico Lami</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Exact finite group designs under symmetry</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Christopher Vairogs, Felix Leditzky</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Sandwiched Rényi divergence and the quantum central limit theorem</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Milad Moazami Goodarzi, Salman Beigi, Marco Tomamichel</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Bartosz Regula, Marco Tomamichel</span>
-- <strong style="font-size: 0.96em; letter-spacing: -0.2px;">Discriminating idempotent quantum channels</strong><br/><span style="display: inline-block; padding-left: 1.6em; color: #666; font-size: 0.88em; font-style: italic;">Satvik Singh, Bjarne Bergh</span>0:{"buildId":"t_AGLqHfUkqCNx3z-mFHq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md","acceptedTalksSource":"biid26-accepted.json"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+<div style="width: 100%; max-width: 100%; margin: 1rem 0 1.5rem; overflow: hidden; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.75rem; background: #ffffff;">
+  <a href="/program/BIID14-schedule-at-a-glance.png" target="_blank" rel="noopener noreferrer">
+    <img src="/program/BIID14-schedule-at-a-glance.png" alt="BIID14 schedule at a glance" style="display: block; width: 100%; height: auto;" />
+  </a>
+</div>
+
+<h2 id="invited-speakers">Invited Speakers</h2>
+
+- **Ludovico Lami**: *On some extensions of the generalised quantum Stein's lemma*
+- **Benjamin Lovitz**: *Constructive counterexamples to the additivity of minimum output Rényi entropy of quantum channels for all p > 1*
+- **Alexander Holevo**: *Convex closure of the output entropy and sharp entropy inequalities* (online)
+- **Salman Beigi**: *To be announced* (online)
+- **Amin Aminzadeh Gohari**: *The auxiliary receiver approach in network information theory*
+
+<h2 id="program">Program</h2>
+
+<style>
+  .program-schedule li > span:first-child::after {
+    content: ":";
+  }
+</style>
+
+### Monday, June 22
+
+##### Morning Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">08:30 - 09:00: <strong><span style="color: #146c43;">Registration & Opening</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 10:00: <strong>Ludovico Lami</strong>: <em>On some extensions of the generalised quantum Stein's lemma</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Bartosz Regula</strong>: <em>Beyond Hoeffding and Chernoff: trading conclusiveness for advantages in quantum hypothesis testing</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Kun Fang</strong>: <em>An almost complete picture of quantum state discrimination with composite correlated hypotheses</em></span></li>
+  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:45 - 13:30: Lunch Break (Buffet)</span></li> -->
+</ul>
+
+<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
+
+##### Afternoon Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:00: <strong>Sujeet Bhalerao</strong>: <em>Improving quantum communication rates with permutation-invariant codes</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:00 - 14:30: <strong>Idris Natanaël Delsol</strong>: <em>Emulation capacity between idempotent channels</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Liuhang Ye</strong>: <em>Strong converse bounds on the classical identification capacity of the qubit depolarizing channel</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Xuanqiang Zhao</strong>: <em>The communication power of indefinite causal order</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">16:00 - 18:00: <strong><span style="color:#9f1d2b;">Poster Session</strong></span></li>
+  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>18:00 - 21:30: Free Time</span></li> -->
+</ul>
+
+### Tuesday, June 23
+
+##### Morning Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 10:00: <strong>Benjamin Lovitz</strong>: <em>Constructive counterexamples to the additivity of minimum output Rényi entropy of quantum channels for all p > 1</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Kaito Watanabe</strong>: <em>Reliability function of work extraction and beyond</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Milad Moazami Goodarzi</strong>: <em>Sandwiched Rényi divergence and the quantum central limit theorem</em></span></li>
+</ul>
+
+<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
+
+##### Afternoon Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:00: <strong>Bartosz Regula</strong>: <em>Rethinking quantum smooth entropies: tight one-shot analysis of quantum privacy amplification</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:00 - 14:30: <strong>Yongsheng Yao</strong>: <em>Tight any-shot quantum decoupling</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Marco Tomamichel</strong>: <em>The strong converse exponent of composable randomness extraction against quantum side information</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Masahito Hayashi</strong>: <em>Universal classical-quantum channel resolvability and its application to universal private-channel coding</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">16:00 - 18:00: <strong><span style="color:#9f1d2b;">Open Problem Session</strong></span></li>
+  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>18:00 - 21:30: Free Time</span></li> -->
+</ul>
+
+### Wednesday, June 24
+
+##### Morning Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 09:30: <strong>Marco Tomamichel</strong>: <em>A complete characterisation of conditional entropies</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:30 - 10:00: <strong>Pablo Costa Rico</strong>: <em>Sharp inequalities for Schur-convex functionals of partial traces over unitary orbits</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break & Group Photo</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Pablo Costa Rico</strong>: <em>Partial trace relations beyond normal matrices</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Afham</strong>: <em>Projections with respect to bures distance and fidelity: closed-forms and applications</em></span></li>
+</ul>
+
+<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
+
+##### Afternoon Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:30: <strong>Alexander Holevo</strong>: <em>Convex closure of the output entropy and sharp entropy inequalities</em> (online)</span></li>
+  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:30 - 18:00: Free Time</span></li> -->
+</ul>
+
+##### Evening Event
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">18:00 - 21:30: <strong><span style="color: #b8860b;">Banquet (Buffet) in COLI Hotel</span></strong>
+    <ul style="margin: 1.75rem 0 0; padding-left: 1.2rem;">
+      <li><strong>English address:</strong> The COLI Hotel Shenzhen, No. 168 Dayun Road, Longgang, Shenzhen, China</li>
+      <li><strong>Chinese address:</strong> 深圳中海凯骊酒店，中国深圳市龙岗区大运路168号</li>
+      <li><strong>Navigation: </strong> Refer to <a href="https://www.amap.com/place/B0FFF5RLD9" target="_blank" rel="noopener noreferrer">Amap</a>; see also <a href="/venue-travel">Venue & Travel</a>.</li>
+    </ul>
+  </li>
+</ul>
+
+### Thursday, June 25
+
+##### Morning Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 09:30: <strong>Aby Philip</strong>: <em>Robustness of quantum data hiding against entangled catalysts and memory</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:30 - 10:00: <strong>Hailey Murray</strong>: <em>Fundamental limits for thermodynamic control with quantum feedback</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Idris Natanaël Delsol</strong>: <em>Computational complexity of optimally encoding a qubit</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Yunlong Xiao</strong>: <em>No practical quantum broadcasting: even virtually</em></span></li>
+</ul>
+
+<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
+
+##### Afternoon Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:30: <strong>Salman Beigi</strong>: <em>To be announced</em> (online)</span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Benchi Zhao</strong>: <em>Power and limitations of distributed quantum state purification</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Ludovico Lami</strong>: <em>Fundamental quality bound on optical quantum communication</em></span></li>
+  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>16:00 - 18:00: Free Time</span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>18:00 - 21:30: Free Time</span></li> -->
+</ul>
+
+### Friday, June 26
+
+##### Morning Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 10:00: <strong>Amin Aminzadeh Gohari</strong>: <em>The auxiliary receiver approach in network information theory</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Martin Sandfuchs</strong>: <em>Randomness from causally independent processes</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Filippo Girardi</strong>: <em>Random purification channel made simple</em></span></li>
+</ul>
+
+<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
+
+##### Afternoon Session
+<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:00: <strong>Arick Grootveld</strong>: <em>The rate function for quantum state tomography</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:00 - 14:30: <strong>Qiushi Liu</strong>: <em>Subsystem quantum error correction for noisy quantum metrology</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Sang-Jun Park</strong>: <em>k-Positivity and high-dimensional bound entanglement under symplectic group symmetry</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Christopher Vairogs</strong>: <em>Exact finite group designs under symmetry</em></span></li>
+  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">16:00 - 16:30: <strong><span style="color: #146c43;">Closing</span></strong></li>
+
+</ul>
+
+<h2 id="talks-not-presented">Talks Not Presented</h2>
+
+- *Discriminating idempotent quantum channels* (this work will not be presented)
+- *Uncloneable encryption from decoupling* (this work will not be presented)
+
+<h2 id="confirmed-poster-presentations">Confirmed Poster Presentations</h2>
+
+- **Saptak Bhattacharya**: *Universal recoverability of quantum states in tracial von-Neumann algebras*
+- **Matthew Simon Tan**: *Tight contraction rates for primitive quantum channels*
+- **Xia Liu**: *Dynamic local operations and classical communication for automated entanglement manipulation*
+- **Ziao Tang**: *Simulation of adjoints and Petz recovery maps for unknown quantum channels*
+- **Po-Chieh Liu**: *Sharp estimates of quantum covering problems via a novel trace inequality*
+- **Guocheng Zhen**: *Structure, optimality, and symmetry in shadow unitary inversion*
+- **Ian George**: *Local distinguishability of multipartite orthogonal quantum states: Generalized and simplified*
+- **Junkai Zeng**: *Fundamental costs of noise-robust quantum control: Speed limits and complexity*
+- **Ge Bai**: *Proper and improper mixed states serve as different prior beliefs for quantum state retrodiction*
+- **Andrey Utkin**: *Tight norm inequalities for zero-sum vectors and their connection to the entropy inequalities*
+- **Mingrui Jing**: *Programmable open quantum systems*
+- **Dier Tang**: *Universal feature selection with noisy observations and weak symmetry conditions*
+- **Xiaodie Lin**: *Quantum metrology under indistinguishable noise*
+- **Lingna Wang**: *Tight tradeoff relation and optimal measurement for multi-parameter quantum estimation*
+- **Jinshi Fu**: *Bounding the state of operator powers with weighted norm*
+- **Jiayi Zhao**: *Distilling unitary operations: A no-go theorem and minimal realization*
+- **Lijun Wang**: *Quantitative equivalence between hypercontractivity and strong data processing inequality for quantum channels*
+- **Chengkai Zhu**: *Entanglement cost of bipartite quantum channel discrimination under positive partial transpose operations*
+- **Entong He**: *Resource quantification for programming low-depth quantum circuits*
+- **Filippo Girardi**: *Tumula information and doubly minimized Petz Rényi lautum information*
+- **Hailey Murray**: *Genuine multipartite Rains entanglement*
+- **Jihong Cai**: *The hidden nature of non-markovianity*
+- **Longyun Chen**: *Optimal quantum metrology under energy constraints*
+- **Matt Hoogsteder-Riera**: *Single-letter chain rules for quantum relative entropy*
+- **Peijie Li**: *Quantum talagrand-type inequalities via variance decay*
+- **Sujeet Bhalerao**: *Privacy-utility tradeoffs in quantum information processing*
+- **Vishal Singh**: *Limiting one-way distillable secret key via privacy testing of extendible states*
+- **Xueyuan Hu**: *Gaussian time-translation covariant operations: structure, implementation, and thermodynamics*
+- **Long Zhao**: *Improved lower bounds on MLSI constants of depolarizing semigroups via Pimsner-Popa index*
+- **Chenfeng Cao**: *Sudden death of entanglement, rebirth of magic*
+0:{"buildId":"8F_WAE4UIaGjFWGZ72-b_","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null

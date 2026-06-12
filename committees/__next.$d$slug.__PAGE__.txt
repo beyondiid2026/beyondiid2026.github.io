@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-ec3ac1db9c7fede4.js"],"default"]
+2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-d5beca635efa4780.js"],"default"]
 4:I[484,[],"OutletBoundary"]
 5:"$Sreact.suspense"
 3:T553,## Program Committee
@@ -32,5 +32,5 @@
 - Milan Mosonyi (Budapest University of Technology and Economics)
 - Marco Tomamichel (National University of Singapore)
 - Andreas Winter (University of Cologne)
-0:{"buildId":"t_AGLqHfUkqCNx3z-mFHq","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Committees","source":"committees.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"8F_WAE4UIaGjFWGZ72-b_","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Committees","source":"committees.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null
