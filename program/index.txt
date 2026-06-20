@@ -4,10 +4,10 @@
 5:I[7121,[],""]
 6:I[4581,[],""]
 d:I[7123,[],""]
-:HL["/_next/static/css/1a8d2468dfd89e4b.css","style"]
+:HL["/_next/static/css/a2fcded1117b33d4.css","style"]
 :HL["https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","style"]
 2:["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]
-0:{"P":null,"b":"y4q-wGUBgBwexSLiT9nvX","c":["","program",""],"q":"","i":false,"f":[[["",{"children":[["slug","program","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1a8d2468dfd89e4b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/quantum.png","type":"image/png+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":"$2"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":[["$","$L4",null,{"items":[{"title":"Home","type":"page","target":"home","href":"/"},{"title":"Call for Submissions","type":"page","target":"call-for-submissions","href":"/call-for-submissions"},{"title":"Registration","type":"page","target":"registration","href":"/registration"},{"title":"Program","type":"page","target":"program","href":"/program"},{"title":"Participant Support","type":"page","target":"participant-support","href":"/participant-support"},{"title":"Venue & Travel","type":"page","target":"venue-travel","href":"/venue-travel"},{"title":"Committees","type":"page","target":"committees","href":"/committees"},{"title":"Code of Conduct","type":"page","target":"code-of-conduct","href":"/code-of-conduct"}],"siteTitle":"Beyond IID 14","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],"$L7","$L8"]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$L9"]}]}]]}]]}],{"children":["$La",{"children":["$Lb",{},null,false,false]},null,false,false]},null,false,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"HKAodQMMdYVoRmO7F-eY0","c":["","program",""],"q":"","i":false,"f":[[["",{"children":[["slug","program","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a2fcded1117b33d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/quantum.png","type":"image/png+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":"$2"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":[["$","$L4",null,{"items":[{"title":"Home","type":"page","target":"home","href":"/"},{"title":"Call for Submissions","type":"page","target":"call-for-submissions","href":"/call-for-submissions"},{"title":"Registration","type":"page","target":"registration","href":"/registration"},{"title":"Program","type":"page","target":"program","href":"/program"},{"title":"Participant Support","type":"page","target":"participant-support","href":"/participant-support"},{"title":"Venue & Travel","type":"page","target":"venue-travel","href":"/venue-travel"},{"title":"Committees","type":"page","target":"committees","href":"/committees"},{"title":"Code of Conduct","type":"page","target":"code-of-conduct","href":"/code-of-conduct"}],"siteTitle":"Beyond IID 14","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],"$L7","$L8"]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$L9"]}]}]]}]]}],{"children":["$La",{"children":["$Lb",{},null,false,false]},null,false,false]},null,false,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"S":true}
 e:I[7694,["905","static/chunks/905-e19454af5060a141.js","827","static/chunks/827-0aae01477509eede.js","177","static/chunks/app/layout-599a7c7de7504685.js"],"default"]
 10:I[484,[],"OutletBoundary"]
 11:"$Sreact.suspense"
@@ -20,7 +20,7 @@ a:["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children
 b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}]
 c:["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$L14"}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":"$L16"}]}]}],null]}]
 17:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-4be5255fed5f666a.js"],"default"]
-18:T5c29,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
+18:T99eb,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
   <a href="#schedule-at-a-glance">Schedule at a Glance</a>
   <a href="#invited-speakers">Invited Speakers</a>
   <a href="#program">Program</a>
@@ -30,25 +30,233 @@ c:["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$L14"}],["$","di
 
 <h2 id="schedule-at-a-glance">Schedule at a Glance</h2>
 
-A PDF version of the complete program is available here: <a href="/program/BIID14-program.pdf" download>download the complete program (PDF)</a>.
+A PDF version of the complete program is available here: <a href="/program/complete-program/" target="_blank" rel="noopener noreferrer">view the complete program (PDF)</a>.
 
 <div style="width: 100%; max-width: 100%; margin: 1rem 0 1.5rem; overflow: hidden; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.75rem; background: #ffffff;">
-  <a href="/program/BIID14-schedule-at-a-glance-20260619.png" target="_blank" rel="noopener noreferrer">
-    <img src="/program/BIID14-schedule-at-a-glance-20260619.png" alt="BIID14 schedule at a glance" style="display: block; width: 100%; height: auto;" />
+  <a href="/program/BIID14-schedule-at-a-glance-20260620.png" target="_blank" rel="noopener noreferrer">
+    <img src="/program/BIID14-schedule-at-a-glance-20260620.png" alt="BIID14 schedule at a glance" style="display: block; width: 100%; height: auto;" />
   </a>
 </div>
 
 <h2 id="invited-speakers">Invited Speakers</h2>
 
-- **Ludovico Lami**: *On some extensions of the generalised quantum Stein's lemma*
-- **Benjamin Lovitz**: *Constructive counterexamples to the additivity of minimum output Rényi entropy of quantum channels for all p > 1*
-- **Alexander Holevo**: *Convex closure of the output entropy and sharp entropy inequalities* (online)
-- **Salman Beigi**: *Fermions are fundamentally more nonlocal than Bosons* (online)
-- **Amin Aminzadeh Gohari**: *The auxiliary receiver approach in network information theory*
+<ul class="invited-speaker-list">
+  <li>
+    <details class="invited-speaker-item">
+      <summary><span class="invited-speaker-name">Ludovico Lami</span> <span class="invited-speaker-hint">(click for more details)</span></summary>
+      <div class="invited-speaker-details">
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Affiliation:</span> Scuola Normale Superiore</div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Title:</span> <em>On some extensions of the generalised quantum Stein’s lemma</em></div>
+        <div class="invited-speaker-subheading">Abstract</div>
+        <div class="invited-speaker-detail">The recent proofs of the generalised Stein’s lemma have introduced new techniques in quantum hypothesis testing, naturally raising the question of which further extensions these methods make possible. In this talk, I will review some of these developments, focusing in particular on the composite i.i.d. extension established in [Lami/Regula/Takagi, <a href="https://arxiv.org/abs/2605.15174" target="_blank" rel="noopener noreferrer">arXiv:2605.15174</a>]. This result shows that, in quantum resource testing with a composite i.i.d. null hypothesis, the resulting Stein exponent is equal to the minimum of the corresponding individual Stein exponents. As a consequence, quantum resources can be transformed via asymptotically resource non-generating operations not only reversibly, but also universally: that is, through protocols that are agnostic to the input state.</div>
+        <div class="invited-speaker-subheading">Biography</div>
+        <div class="invited-speaker-detail">Ludovico Lami graduated in physics from Scuola Normale Superiore in Pisa, Italy, in 2015, and earned his PhD from the Autonomous University of Barcelona, Spain, in 2017, under the supervision of Andreas Winter. He was an Alexander von Humboldt Research Fellow at the University of Ulm, Germany, from 2020 to 2022, and an Assistant Professor at the University of Amsterdam and QuSoft from 2022 to 2024. He is currently an Assistant Professor at Scuola Normale Superiore. In 2024, he was awarded an ERC Starting Grant. His research interests include quantum information, entanglement theory, quantum Shannon theory, and foundational aspects of quantum physics.</div>
+      </div>
+    </details>
+  </li>
+  <li>
+    <details class="invited-speaker-item">
+      <summary><span class="invited-speaker-name">Benjamin Lovitz</span> <span class="invited-speaker-hint">(click for more details)</span></summary>
+      <div class="invited-speaker-details">
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Affiliation:</span> Concordia University</div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Title:</span> <em>Constructive counterexamples to the additivity of minimum output Rényi entropy of quantum channels for all p &gt; 1</em></div>
+        <div class="invited-speaker-subheading">Abstract</div>
+        <div class="invited-speaker-detail">The classical capacity of a quantum channel is defined as the asymptotic number of bits per channel use that can be sent over that channel. By a theorem of Holevo, Schumacher and Westmoreland, the classical capacity is equal to the regularized Holevo capacity of the channel. It is known that the regularization is necessary, i.e. there exist channels for which the classical capacity is not equal to the one-shot Holevo capacity. This is due to a randomized construction given in [Hastings 09]. It is an open question to derandomize Hastings’ construction. For this, it would suffice to find an explicit channel for which the minimum output entropy is strictly subadditive under the tensor product [Shor 04]. We make progress towards this goal by presenting explicit channels with strictly sub-additive minimum output Rényi entropy for all p &gt; 1, improving upon prior constructions which handled p &gt; 2. Our example is provided by explicit constructions of linear subspaces with high geometric measure of entanglement. This construction applies in both the bipartite and multipartite settings. As further applications, we use our construction to find entanglement witnesses with many highly negative eigenvalues, and to construct entangled mixed states that remain entangled after perturbation. This talk is based on joint work with Harm Derksen (<a href="https://arxiv.org/abs/2510.07547" target="_blank" rel="noopener noreferrer">arXiv:2510.07547</a>).</div>
+        <div class="invited-speaker-subheading">Biography</div>
+        <div class="invited-speaker-detail">Ben Lovitz is an assistant professor in the Department of Computer Science and Software Engineering at Concordia University. He completed his PhD at the University of Waterloo under the supervision of William Slofstra and John Watrous, and was a postdoctoral fellow with Harm Derksen at Northeastern University. His research lies at the intersection of quantum information theory, tensor decompositions, and optimization. He is generously supported by an NSERC Discovery Grant.</div>
+      </div>
+    </details>
+  </li>
+  <li>
+    <details class="invited-speaker-item">
+      <summary><span class="invited-speaker-name">Alexander Holevo</span> <span class="invited-speaker-hint">(click for more details)</span></summary>
+      <div class="invited-speaker-details">
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Affiliation:</span> Steklov Mathematical Institute</div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Title:</span> <em>Convex closure of the output entropy and sharp entropy inequalities</em></div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Delivery:</span> <span class="invited-speaker-online">Online</span></div>
+        <div class="invited-speaker-subheading">Abstract</div>
+        <div class="invited-speaker-detail">A number of optimization problems in quantum information theory — (one-shot) constrained classical capacity of a quantum channel; entanglement of formation of a composite state; classical capacity of a quantum observable; accessible information of an ensemble of quantum states — can be formulated as calculation of the convex closure of the output entropy of certain quantum channel. This is a convex programming problem for which the dual problem along with the necessary and sufficient optimality conditions can be established. These optimality conditions imply new sharp lower bounds for Shannon entropy which are related to generalizations of the famous log-Sobolev inequality.</div>
+        <div class="invited-speaker-subheading">Biography</div>
+        <div class="invited-speaker-detail">Alexander S. Holevo graduated from the Moscow Institute of Physics and Technology in 1966. Since 1969 he works in the Steklov Mathematical Institute, Moscow. Corresponding member of Russian Academy of Sciences — 2016, Full member — 2019. Scientific interests: mathematical theory of quantum communication channels; coding theorems of quantum information theory; noncommutative statistical decision theory; the structure of quantum Markov processes and semigroups. List of publications contains nearly 250 titles including the monographs: "Probabilistic and statistical aspects of quantum theory", "Statistical structure of quantum theory", "Quantum systems, channels, information". Awards: A.A. Markov Prize for the works on the noncommutative probability theory — 1997; International Quantum Communication Award — 1996; A. von Humboldt Research Award — 1999; Claude E. Shannon Award 2016; Sber Science Award — 2022. Invited speaker at the International Congresses of Mathematicians — Berkeley (1986), Madrid (2006), and many other international and national conferences.</div>
+      </div>
+    </details>
+  </li>
+  <li>
+    <details class="invited-speaker-item">
+      <summary><span class="invited-speaker-name">Salman Beigi</span> <span class="invited-speaker-hint">(click for more details)</span></summary>
+      <div class="invited-speaker-details">
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Affiliation:</span> Institute for Research in Fundamental Sciences, Tehran</div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Title:</span> <em>Fermions are fundamentally more nonlocal than Bosons</em></div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Delivery:</span> <span class="invited-speaker-online">Online</span></div>
+        <div class="invited-speaker-subheading">Abstract</div>
+        <div class="invited-speaker-detail">Bell’s theorem shows that entangled quantum particles can exhibit correlations that classical particles cannot reproduce without an additional nonlocal resource, such as communication. In this sense, quantum particles are fundamentally more nonlocal than classical ones, and entanglement becomes unavoidable in physics. In this talk an analogous result within quantum theory itself is presented: indistinguishable fermions transmitted through a quantum network can generate correlations that distinguishable particles or indistinguishable bosons cannot reproduce without additional communication. In the same sense, fermions are fundamentally more nonlocal than bosons or distinguishable particles, motivating fermionic anticommutation and indistinguishability as unavoidable operational resources. This result further implies that fermions can strictly surpass all qubit-based protocols for certain distributed computing tasks, demonstrating that a complete understanding of information processing requires going beyond qubits to fermionic information carriers—febits.</div>
+        <div class="invited-speaker-subheading">Biography</div>
+        <div class="invited-speaker-detail">Salman Beigi received the Ph.D. degree in applied mathematics from Massachusetts Institute of Technology in 2009. He is currently a Full Professor with the School of Mathematics, Institute for Research in Fundamental Sciences (IPM), Tehran, Iran. His research interests include quantum information theory, particularly quantum Shannon theory, quantum algorithms, and foundations of quantum physics.</div>
+      </div>
+    </details>
+  </li>
+  <li>
+    <details class="invited-speaker-item">
+      <summary><span class="invited-speaker-name">Amin Aminzadeh Gohari</span> <span class="invited-speaker-hint">(click for more details)</span></summary>
+      <div class="invited-speaker-details">
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Affiliation:</span> The Chinese University of Hong Kong</div>
+        <div class="invited-speaker-field"><span class="invited-speaker-label">Title:</span> <em>The Auxiliary Receiver Approach in Network Information Theory</em></div>
+        <div class="invited-speaker-subheading">Abstract</div>
+        <div class="invited-speaker-detail">In this talk, I will discuss recent advancements in the auxiliary receiver approach. This approach serves as a mathematical tool for deriving outer bounds in network information theory. It has proven to be highly effective, providing state-of-the-art outer bounds for a variety of settings in network information theory, including relay channels, interference channels, broadcast channels, key agreement, distributed hypothesis testing, and more.</div>
+        <div class="invited-speaker-subheading">Biography</div>
+        <div class="invited-speaker-detail">Amin Gohari received his B.Sc. degree from Sharif University, Iran, in 2004 and his Ph.D. degree in electrical engineering from the University of California, Berkeley in 2010. Dr. Gohari received the 2010 Eli Jury Award from UC Berkeley's Department of Electrical Engineering and Computer Sciences for “outstanding achievement in the area of communication networks,” and the 2009-2010 Bernard Friedman Memorial Prize in Applied Mathematics from UC Berkeley's Department of Mathematics for “demonstrated ability to do research in applied mathematics.” He also received the Gold Medal from the 41st International Mathematical Olympiad (IMO 2000) and the First Prize from the 9th International Mathematical Competition for University Students (IMC 2002). He received the IEEE Iran Section Young Researcher Award in 2021. Dr. Gohari served as an Associate Editor for the IEEE Transactions on Information Theory from 2018-2021. He was also a finalist for the IEEE Jack Keil Wolf ISIT Student Paper Award for three consecutive years from 2008-2010 during his PhD.</div>
+      </div>
+    </details>
+  </li>
+</ul>
 
 <h2 id="program">Program</h2>
 
 <style>
+  .invited-speaker-list {
+    margin: 0.75rem 0 2rem;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .invited-speaker-list > li {
+    padding-left: 1.25rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .invited-speaker-item > summary {
+    position: relative;
+    padding: 0.75rem 0.15rem;
+    color: #1e293b;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .invited-speaker-item > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .invited-speaker-item > summary::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -1rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #23395d;
+    transform: translateY(-50%);
+    transition: background-color 150ms ease, transform 150ms ease;
+  }
+
+  .invited-speaker-item[open] > summary::before,
+  .invited-speaker-item > summary:hover::before {
+    background: #b07924;
+    transform: translateY(-50%) scale(1.15);
+  }
+
+  .invited-speaker-item > summary:hover .invited-speaker-name {
+    color: #936a24;
+  }
+
+  .invited-speaker-item > summary:focus-visible {
+    border-radius: 3px;
+    outline: 2px solid #c6923d;
+    outline-offset: 3px;
+  }
+
+  .invited-speaker-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+  }
+
+  .invited-speaker-hint {
+    margin-left: 0.25rem;
+    color: #64748b;
+    font-size: 0.88em;
+    font-style: italic;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .invited-speaker-details {
+    margin: 0.1rem 0.25rem 1.2rem 0.1rem;
+    padding: 0.9rem 1rem;
+    border-left: 3px solid #d6ad63;
+    background: #f8fafc;
+    color: #475569;
+    line-height: 1.65;
+  }
+
+  .invited-speaker-field + .invited-speaker-field {
+    margin-top: 0.3rem;
+  }
+
+  .invited-speaker-label,
+  .invited-speaker-subheading {
+    color: #1e293b;
+    font-weight: 700;
+  }
+
+  .invited-speaker-field em {
+    color: #475569;
+  }
+
+  .invited-speaker-subheading {
+    margin: 0.9rem 0 0.2rem;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  .invited-speaker-detail {
+    color: #475569;
+  }
+
+  .invited-speaker-online {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.45rem;
+    border: 1px solid #d8bd80;
+    border-radius: 999px;
+    background: #f8ecd2;
+    color: #70511a;
+    font-family: inherit;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .dark .invited-speaker-list > li {
+    border-bottom-color: #334155;
+  }
+
+  .dark .invited-speaker-item > summary::before {
+    background: #94a3b8;
+  }
+
+  .dark .invited-speaker-item[open] > summary::before,
+  .dark .invited-speaker-item > summary:hover::before {
+    background: #dfb45f;
+  }
+
+  .dark .invited-speaker-item > summary,
+  .dark .invited-speaker-label,
+  .dark .invited-speaker-subheading {
+    color: #f8fafc;
+  }
+
+  .dark .invited-speaker-hint,
+  .dark .invited-speaker-details,
+  .dark .invited-speaker-field em,
+  .dark .invited-speaker-detail {
+    color: #cbd5e1;
+  }
+
+  .dark .invited-speaker-details {
+    background: #1e293b;
+  }
+
   .program-day {
     margin: 2.5rem 0 0;
   }
@@ -160,6 +368,18 @@ A PDF version of the complete program is available here: <a href="/program/BIID1
     background: #e5e7eb;
   }
 
+  .program-opening > * {
+    background: #ffe9e8;
+  }
+
+  .program-opening-presenter {
+    display: block;
+    margin-top: 0.15rem;
+    color: #475569;
+    font-size: 0.96em;
+    line-height: 1.4;
+  }
+
   .program-banquet-details {
     margin: -0.75rem 0 2rem;
     padding: 0.85rem 1rem;
@@ -222,7 +442,8 @@ A PDF version of the complete program is available here: <a href="/program/BIID1
       <thead><tr><th class="program-time" scope="col">Time / Session</th><th scope="col">Program Details</th></tr></thead>
       <tbody>
         <tr class="program-admin"><th class="program-time" scope="row">08:30-08:50</th><td><strong>Registration</strong></td></tr>
-        <tr class="program-admin"><th class="program-time" scope="row">08:50-09:00</th><td><strong>Opening</strong></td></tr>
+        <!-- <tr class="program-opening"><th class="program-time" scope="row">08:50-09:00</th><td><strong>Opening</strong><span class="program-opening-presenter"><strong>Jiangang Jim Dai</strong>, <em>Honorary Dean of SDS</em></span></td></tr> -->
+        <tr class="program-opening"><th class="program-time" scope="row">08:50-09:00</th><td><strong>Opening (Jiangang Jim Dai, <em>Honorary Dean of SDS</em>)</strong></td></tr>
         <tr class="program-session"><th class="program-time" scope="row">Morning Session 1</th><td>Chair: Masahito Hayashi</td></tr>
         <tr class="program-invited"><th class="program-time" scope="row">09:00-10:00</th><td><strong>Ludovico Lami</strong>: <em>On some extensions of the generalised quantum Stein’s lemma</em></td></tr>
         <tr class="program-break"><th class="program-time" scope="row">10:00-10:45</th><td><strong>Coffee Break</strong></td></tr>
