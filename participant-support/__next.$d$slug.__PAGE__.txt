@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-d5beca635efa4780.js"],"default"]
+2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-4be5255fed5f666a.js"],"default"]
 4:I[484,[],"OutletBoundary"]
 5:"$Sreact.suspense"
 3:T72c,## Student Travel Support
@@ -28,5 +28,5 @@ Your application email should include:
 ## Visa Application Letters
 
 If you need an invitation letter to apply for a Chinese visa to attend the conference, please get in touch with the local organizing committee at [beyondiid2026@gmail.com](mailto:beyondiid2026@gmail.com).
-0:{"buildId":"ogci9pnj55HkMVrwU03Eu","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Participant Support","source":"participant-support.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"y4q-wGUBgBwexSLiT9nvX","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Participant Support","source":"participant-support.md"},"content":"$3"}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

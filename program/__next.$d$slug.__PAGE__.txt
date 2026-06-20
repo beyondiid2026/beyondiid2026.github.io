@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-d5beca635efa4780.js"],"default"]
+2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-4be5255fed5f666a.js"],"default"]
 5:I[484,[],"OutletBoundary"]
 6:"$Sreact.suspense"
-3:T4afc,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
+3:T5c29,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
   <a href="#schedule-at-a-glance">Schedule at a Glance</a>
   <a href="#invited-speakers">Invited Speakers</a>
   <a href="#program">Program</a>
@@ -15,8 +15,8 @@
 A PDF version of the complete program is available here: <a href="/program/BIID14-program.pdf" download>download the complete program (PDF)</a>.
 
 <div style="width: 100%; max-width: 100%; margin: 1rem 0 1.5rem; overflow: hidden; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.75rem; background: #ffffff;">
-  <a href="/program/BIID14-schedule-at-a-glance.png" target="_blank" rel="noopener noreferrer">
-    <img src="/program/BIID14-schedule-at-a-glance.png" alt="BIID14 schedule at a glance" style="display: block; width: 100%; height: auto;" />
+  <a href="/program/BIID14-schedule-at-a-glance-20260619.png" target="_blank" rel="noopener noreferrer">
+    <img src="/program/BIID14-schedule-at-a-glance-20260619.png" alt="BIID14 schedule at a glance" style="display: block; width: 100%; height: auto;" />
   </a>
 </div>
 
@@ -31,134 +31,311 @@ A PDF version of the complete program is available here: <a href="/program/BIID1
 <h2 id="program">Program</h2>
 
 <style>
-  .program-schedule li > span:first-child::after {
-    content: ":";
+  .program-day {
+    margin: 2.5rem 0 0;
+  }
+
+  .program-day-title {
+    margin: 0;
+    padding: 0.8rem 1rem;
+    border-radius: 8px 8px 0 0;
+    background: #23395d;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .program-table-wrap {
+    width: 100%;
+    margin: 0 0 1.75rem;
+    overflow-x: auto;
+    border: 1.5px solid #cbd5e1;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #ffffff;
+  }
+
+  .program-table {
+    width: 100%;
+    min-width: 680px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 0.95em;
+    line-height: 1.45;
+  }
+
+  .program-table th,
+  .program-table td {
+    padding: 0.72rem 0.85rem;
+    border-bottom: 1px solid #cbd5e1;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .program-table tr:last-child > * {
+    border-bottom: 0;
+  }
+
+  .program-table td {
+    color: #334155;
+  }
+
+  .program-table td strong {
+    color: #1e293b;
+  }
+
+  .program-table td em {
+    color: #475569;
+  }
+
+  .program-table .program-time {
+    box-sizing: border-box;
+    width: 11.75rem;
+    border-right: 1px solid #cbd5e1;
+    color: #334155;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .program-table thead th {
+    background: #f8fafc;
+    color: #1e293b;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .program-table thead .program-time {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .program-session > * {
+    background: #f6e4f5;
+    font-weight: 700 !important;
+  }
+
+  .program-talk > * {
+    background: #e7f4df;
+  }
+
+  .program-invited > * {
+    background: #fbe6d8;
+  }
+
+  .program-break > * {
+    background: #dceff7;
+  }
+
+  .program-special > * {
+    background: #f3d8ef;
+  }
+
+  .program-banquet > * {
+    background: #fff0c2;
+  }
+
+  .program-admin > * {
+    background: #e5e7eb;
+  }
+
+  .program-banquet-details {
+    margin: -0.75rem 0 2rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid #e5c767;
+    border-radius: 6px;
+    background: #fffaf0;
+    color: #334155;
+  }
+
+  .program-banquet-details strong {
+    color: #1e293b;
+  }
+
+  .program-banquet-details ul {
+    margin: 0.45rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .program-day-title {
+      font-size: 1.2rem;
+    }
+
+    .program-table-wrap {
+      overflow-x: hidden;
+    }
+
+    .program-table {
+      min-width: 0;
+      width: 100%;
+      font-size: 0.9em;
+    }
+
+    .program-table th,
+    .program-table td {
+      padding: 0.6rem 0.55rem;
+      overflow-wrap: break-word;
+    }
+
+    .program-table td {
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .program-table .program-time {
+      width: 36%;
+    }
+
+    .program-table thead .program-time,
+    .program-table .program-session .program-time {
+      white-space: normal;
+    }
   }
 </style>
 
-### Monday, June 22
+<section class="program-day" aria-labelledby="program-monday-title">
+  <div id="program-monday-title" class="program-day-title" role="heading" aria-level="3">Monday, June 22</div>
+  <div class="program-table-wrap" role="region" aria-label="Monday, June 22 program" tabindex="0">
+    <table class="program-table">
+      <thead><tr><th class="program-time" scope="col">Time / Session</th><th scope="col">Program Details</th></tr></thead>
+      <tbody>
+        <tr class="program-admin"><th class="program-time" scope="row">08:30-08:50</th><td><strong>Registration</strong></td></tr>
+        <tr class="program-admin"><th class="program-time" scope="row">08:50-09:00</th><td><strong>Opening</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 1</th><td>Chair: Masahito Hayashi</td></tr>
+        <tr class="program-invited"><th class="program-time" scope="row">09:00-10:00</th><td><strong>Ludovico Lami</strong>: <em>On some extensions of the generalised quantum Stein’s lemma</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">10:00-10:45</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 2</th><td>Chair: Milad Moazami Goodarzi</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">10:45-11:15</th><td><strong>Bartosz Regula</strong>: <em>Beyond Hoeffding and Chernoff: trading conclusiveness for advantages in quantum hypothesis testing</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">11:15-11:45</th><td><strong>Kun Fang</strong>: <em>An almost complete picture of quantum state discrimination with composite correlated hypotheses</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">11:45-13:30</th><td><strong>Lunch Break (Buffet)</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 1</th><td>Chair: Bartosz Regula</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">13:30-14:00</th><td><strong>Sujeet Bhalerao</strong>: <em>Improving quantum communication rates with permutation-invariant codes</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">14:00-14:30</th><td><strong>Idris Natanaël Delsol</strong>: <em>Emulation capacity between idempotent channels</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">14:30-15:00</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 2</th><td>Chair: Matt Hoogsteder-Riera</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:00-15:30</th><td><strong>Liuhang Ye</strong>: <em>Strong converse bounds on the classical identification capacity of the qubit depolarizing channel</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:30-16:00</th><td><strong>Xuanqiang Zhao</strong>: <em>The communication power of indefinite causal order</em></td></tr>
+        <tr class="program-special"><th class="program-time" scope="row">16:00-18:00</th><td><strong>Poster Session</strong></td></tr>
+        <!-- <tr class="program-break"><th class="program-time" scope="row">18:00-21:30</th><td><strong>Free Time</strong></td></tr> -->
+      </tbody>
+    </table>
+  </div>
+</section>
 
-##### Morning Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">08:30 - 09:00: <strong><span style="color: #146c43;">Registration & Opening</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 10:00: <strong>Ludovico Lami</strong>: <em>On some extensions of the generalised quantum Stein's lemma</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Bartosz Regula</strong>: <em>Beyond Hoeffding and Chernoff: trading conclusiveness for advantages in quantum hypothesis testing</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Kun Fang</strong>: <em>An almost complete picture of quantum state discrimination with composite correlated hypotheses</em></span></li>
-  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:45 - 13:30: Lunch Break (Buffet)</span></li> -->
-</ul>
+<section class="program-day" aria-labelledby="program-tuesday-title">
+  <div id="program-tuesday-title" class="program-day-title" role="heading" aria-level="3">Tuesday, June 23</div>
+  <div class="program-table-wrap" role="region" aria-label="Tuesday, June 23 program" tabindex="0">
+    <table class="program-table">
+      <thead><tr><th class="program-time" scope="col">Time / Session</th><th scope="col">Program Details</th></tr></thead>
+      <tbody>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 1</th><td>Chair: Xin Wang</td></tr>
+        <tr class="program-invited"><th class="program-time" scope="row">09:00-10:00</th><td><strong>Benjamin Lovitz</strong>: <em>Constructive counterexamples to the additivity of minimum output Rényi entropy of quantum channels for all p &gt; 1</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">10:00-10:45</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 2</th><td>Chair: Benjamin Lovitz</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">10:45-11:15</th><td><strong>Kaito Watanabe</strong>: <em>Reliability function of work extraction and beyond</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">11:15-11:45</th><td><strong>Milad Moazami Goodarzi</strong>: <em>Sandwiched Renyi divergence and the quantum central limit theorem</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">11:45-13:30</th><td><strong>Lunch Break (Buffet)</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 1</th><td>Chair: Afham</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">13:30-14:00</th><td><strong>Bartosz Regula</strong>: <em>Rethinking quantum smooth entropies: tight one-shot analysis of quantum privacy amplification</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">14:00-14:30</th><td><strong>Yongsheng Yao</strong>: <em>Tight any-shot quantum decoupling</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">14:30-15:00</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 2</th><td>Chair: Ryuji Takagi</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:00-15:30</th><td><strong>Marco Tomamichel</strong>: <em>The strong converse exponent of composable randomness extraction against quantum side information</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:30-16:00</th><td><strong>Masahito Hayashi</strong>: <em>Universal classical-quantum channel resolvability and its application to universal private-channel coding</em></td></tr>
+        <tr class="program-special"><th class="program-time" scope="row">16:00-18:00</th><td><strong>Open Problem Session (Chair: Hao-Chung Cheng)</strong></td></tr>
+        <!-- <tr class="program-break"><th class="program-time" scope="row">18:00-21:30</th><td><strong>Free Time</strong></td></tr> -->
+      </tbody>
+    </table>
+  </div>
+</section>
 
-<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
-
-##### Afternoon Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:00: <strong>Sujeet Bhalerao</strong>: <em>Improving quantum communication rates with permutation-invariant codes</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:00 - 14:30: <strong>Idris Natanaël Delsol</strong>: <em>Emulation capacity between idempotent channels</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Liuhang Ye</strong>: <em>Strong converse bounds on the classical identification capacity of the qubit depolarizing channel</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Xuanqiang Zhao</strong>: <em>The communication power of indefinite causal order</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">16:00 - 18:00: <strong><span style="color:#9f1d2b;">Poster Session</strong></span></li>
-  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>18:00 - 21:30: Free Time</span></li> -->
-</ul>
-
-### Tuesday, June 23
-
-##### Morning Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 10:00: <strong>Benjamin Lovitz</strong>: <em>Constructive counterexamples to the additivity of minimum output Rényi entropy of quantum channels for all p > 1</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Kaito Watanabe</strong>: <em>Reliability function of work extraction and beyond</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Milad Moazami Goodarzi</strong>: <em>Sandwiched Rényi divergence and the quantum central limit theorem</em></span></li>
-</ul>
-
-<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
-
-##### Afternoon Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:00: <strong>Bartosz Regula</strong>: <em>Rethinking quantum smooth entropies: tight one-shot analysis of quantum privacy amplification</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:00 - 14:30: <strong>Yongsheng Yao</strong>: <em>Tight any-shot quantum decoupling</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Marco Tomamichel</strong>: <em>The strong converse exponent of composable randomness extraction against quantum side information</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Masahito Hayashi</strong>: <em>Universal classical-quantum channel resolvability and its application to universal private-channel coding</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">16:00 - 18:00: <strong><span style="color:#9f1d2b;">Open Problem Session</strong></span></li>
-  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>18:00 - 21:30: Free Time</span></li> -->
-</ul>
-
-### Wednesday, June 24
-
-##### Morning Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 09:30: <strong>Marco Tomamichel</strong>: <em>A complete characterisation of conditional entropies</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:30 - 10:00: <strong>Yunlong Xiao</strong>: <em>No practical quantum broadcasting: even virtually</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break & Group Photo</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Pablo Costa Rico</strong>: <em>Partial trace relations beyond normal matrices</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Afham</strong>: <em>Projections with respect to bures distance and fidelity: closed-forms and applications</em></span></li>
-</ul>
-
-<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
-
-##### Afternoon Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:30: <strong>Alexander Holevo</strong>: <em>Convex closure of the output entropy and sharp entropy inequalities</em> (online)</span></li>
-  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:30 - 18:00: Free Time</span></li> -->
-</ul>
-
-##### Evening Event
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">18:00 - 21:30: <strong><span style="color: #b8860b;">Banquet (Buffet) in COLI Hotel</span></strong>
-    <ul style="margin: 1.75rem 0 0; padding-left: 1.2rem;">
+<section class="program-day" aria-labelledby="program-wednesday-title">
+  <div id="program-wednesday-title" class="program-day-title" role="heading" aria-level="3">Wednesday, June 24</div>
+  <div class="program-table-wrap" role="region" aria-label="Wednesday, June 24 program" tabindex="0">
+    <table class="program-table">
+      <thead><tr><th class="program-time" scope="col">Time / Session</th><th scope="col">Program Details</th></tr></thead>
+      <tbody>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 1</th><td>Chair: Nelly Ng Huei Ying</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">09:00-09:30</th><td><strong>Marco Tomamichel</strong>: <em>A complete characterisation of conditional entropies</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">09:30-10:00</th><td><strong>Yunlong Xiao</strong>: <em>No practical quantum broadcasting: even virtually</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">10:00-10:45</th><td><strong>Coffee Break &amp; Group Photo</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 2</th><td>Chair: Ian Thomas George</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">10:45-11:15</th><td><strong>Pablo Costa Rico</strong>: <em>Partial trace relations beyond normal matrices</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">11:15-11:45</th><td><strong>Afham</strong>: <em>Projections with respect to bures distance and fidelity: closed-forms and applications</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">11:45-13:30</th><td><strong>Lunch Break (Buffet)</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 1</th><td>Chair: Masahito Hayashi</td></tr>
+        <tr class="program-invited"><th class="program-time" scope="row">13:30-14:30</th><td><strong>Alexander Holevo</strong>: <em>Convex closure of the output entropy and sharp entropy inequalities</em> (online)</td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">14:30-18:00</th><td><strong>Free Time</strong></td></tr>
+        <tr class="program-banquet"><th class="program-time" scope="row">18:00-21:30</th><td><strong>Banquet (Buffet) in COLI hotel</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="program-banquet-details">
+    <strong>Banquet venue details</strong>
+    <ul>
       <li><strong>English address:</strong> The COLI Hotel Shenzhen, No. 168 Dayun Road, Longgang, Shenzhen, China</li>
       <li><strong>Chinese address:</strong> 深圳中海凯骊酒店，中国深圳市龙岗区大运路168号</li>
-      <li><strong>Navigation: </strong> Refer to <a href="https://www.amap.com/place/B0FFF5RLD9" target="_blank" rel="noopener noreferrer">Amap</a>; see also <a href="/venue-travel">Venue & Travel</a>.</li>
+      <li><strong>Navigation:</strong> Refer to <a href="https://www.amap.com/place/B0FFF5RLD9" target="_blank" rel="noopener noreferrer">Amap</a>; see also <a href="/venue-travel">Venue &amp; Travel</a></li>
     </ul>
-  </li>
-</ul>
+  </div>
+</section>
 
-### Thursday, June 25
+<section class="program-day" aria-labelledby="program-thursday-title">
+  <div id="program-thursday-title" class="program-day-title" role="heading" aria-level="3">Thursday, June 25</div>
+  <div class="program-table-wrap" role="region" aria-label="Thursday, June 25 program" tabindex="0">
+    <table class="program-table">
+      <thead><tr><th class="program-time" scope="col">Time / Session</th><th scope="col">Program Details</th></tr></thead>
+      <tbody>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 1</th><td>Chair: Ge Bai</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">09:00-09:30</th><td><strong>Aby Philip</strong>: <em>Robustness of quantum data hiding against entangled catalysts and memory</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">09:30-10:00</th><td><strong>Hailey Murray</strong>: <em>Fundamental limits for thermodynamic control with quantum feedback</em> (online Q&amp;A)</td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">10:00-10:45</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 2</th><td>Chair: Haidong Yuan</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">10:45-11:15</th><td><strong>Idris Natanaël Delsol</strong>: <em>Computational complexity of optimally encoding a qubit</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">11:15-11:45</th><td><strong>Pablo Costa Rico</strong>: <em>Sharp inequalities for Schur-convex functionals of partial traces over unitary orbits</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">11:45-13:30</th><td><strong>Lunch Break (Buffet)</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 1</th><td>Chair: Ludovico Lami</td></tr>
+        <tr class="program-invited"><th class="program-time" scope="row">13:30-14:30</th><td><strong>Salman Beigi</strong>: <em>Fermions are fundamentally more nonlocal than Bosons</em> (online)</td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">14:30-15:00</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 2</th><td>Chair: Pablo Costa Rico</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:00-15:30</th><td><strong>Benchi Zhao</strong>: <em>Power and limitations of distributed quantum state purification</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:30-16:00</th><td><strong>Ludovico Lami</strong>: <em>Fundamental quality bound on optical quantum communication</em></td></tr>
+        <!-- <tr class="program-break"><th class="program-time" scope="row">16:00-18:00</th><td><strong>Free Time</strong></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">18:00-21:30</th><td><strong>Free Time</strong></td></tr> -->
+      </tbody>
+    </table>
+  </div>
+</section>
 
-##### Morning Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 09:30: <strong>Aby Philip</strong>: <em>Robustness of quantum data hiding against entangled catalysts and memory</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:30 - 10:00: <strong>Hailey Murray</strong>: <em>Fundamental limits for thermodynamic control with quantum feedback</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Idris Natanaël Delsol</strong>: <em>Computational complexity of optimally encoding a qubit</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Pablo Costa Rico</strong>: <em>Sharp inequalities for Schur-convex functionals of partial traces over unitary orbits</em></span></li>
-</ul>
-
-<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
-
-##### Afternoon Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:30: <strong>Salman Beigi</strong>: <em>Fermions are fundamentally more nonlocal than Bosons</em> (online)</span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Benchi Zhao</strong>: <em>Power and limitations of distributed quantum state purification</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Ludovico Lami</strong>: <em>Fundamental quality bound on optical quantum communication</em></span></li>
-  <!-- <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>16:00 - 18:00: Free Time</span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>18:00 - 21:30: Free Time</span></li> -->
-</ul>
-
-### Friday, June 26
-
-##### Morning Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>09:00 - 10:00: <strong>Amin Aminzadeh Gohari</strong>: <em>The auxiliary receiver approach in network information theory</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">10:00 - 10:45: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>10:45 - 11:15: <strong>Martin Sandfuchs</strong>: <em>Randomness from causally independent processes</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>11:15 - 11:45: <strong>Filippo Girardi</strong>: <em>Random purification channel made simple</em></span></li>
-</ul>
-
-<h5><span style="color: #1d4ed8;">Lunch Break</span> (11:45 - 13:30, Buffet served at the conference venue)</h5>
-
-##### Afternoon Session
-<ul class="program-schedule" style="list-style: none; padding-left: 0; margin: 0 0 1.5rem;">
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>13:30 - 14:00: <strong>Arick Grootveld</strong>: <em>The rate function for quantum state tomography</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>14:00 - 14:30: <strong>Qiushi Liu</strong>: <em>Subsystem quantum error correction for noisy quantum metrology</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">14:30 - 15:00: <strong><span style="color: #1d4ed8;">Coffee Break</span></strong></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:00 - 15:30: <strong>Sang-Jun Park</strong>: <em>k-Positivity and high-dimensional bound entanglement under symplectic group symmetry</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;"><span>15:30 - 16:00: <strong>Christopher Vairogs</strong>: <em>Exact finite group designs under symmetry</em></span></li>
-  <li style="display: grid; grid-template-columns: 7.4rem 1fr; gap: 0.75rem; margin-bottom: 0.45rem;">16:00 - 16:30: <strong><span style="color: #146c43;">Closing</span></strong></li>
-
-</ul>
+<section class="program-day" aria-labelledby="program-friday-title">
+  <div id="program-friday-title" class="program-day-title" role="heading" aria-level="3">Friday, June 26</div>
+  <div class="program-table-wrap" role="region" aria-label="Friday, June 26 program" tabindex="0">
+    <table class="program-table">
+      <thead><tr><th class="program-time" scope="col">Time / Session</th><th scope="col">Program Details</th></tr></thead>
+      <tbody>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 1</th><td>Chair: Hao-Chung Cheng</td></tr>
+        <tr class="program-invited"><th class="program-time" scope="row">09:00-10:00</th><td><strong>Amin Aminzadeh Gohari</strong>: <em>The auxiliary receiver approach in network information theory</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">10:00-10:45</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Morning Session 2</th><td>Chair: Aby Philip</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">10:45-11:15</th><td><strong>Martin Sandfuchs</strong>: <em>Randomness from causally independent processes</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">11:15-11:45</th><td><strong>Filippo Girardi</strong>: <em>Random purification channel made simple</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">11:45-13:30</th><td><strong>Lunch Break (Buffet)</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 1</th><td>Chair: Ranyiliu Chen</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">13:30-14:00</th><td><strong>Arick Grootveld</strong>: <em>The rate function for quantum state tomography</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">14:00-14:30</th><td><strong>Qiushi Liu</strong>: <em>Subsystem quantum error correction for noisy quantum metrology</em></td></tr>
+        <tr class="program-break"><th class="program-time" scope="row">14:30-15:00</th><td><strong>Coffee Break</strong></td></tr>
+        <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 2</th><td>Chair: Kun Fang</td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:00-15:30</th><td><strong>Sang-Jun Park</strong>: <em>k-Positivity and high-dimensional bound entanglement under symplectic group symmetry</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">15:30-16:00</th><td><strong>Christopher Vairogs</strong>: <em>Exact finite group designs under symmetry</em></td></tr>
+        <tr class="program-admin"><th class="program-time" scope="row">16:00-16:15</th><td><strong>Closing</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
 <h2 id="talks-not-presented">Talks Not Presented</h2>
 
@@ -167,7 +344,6 @@ A PDF version of the complete program is available here: <a href="/program/BIID1
 
 <h2 id="confirmed-poster-presentations">Confirmed Poster Presentations</h2>
 
-- **Saptak Bhattacharya**: *Universal recoverability of quantum states in tracial von-Neumann algebras*
 - **Matthew Simon Tan**: *Tight contraction rates for primitive quantum channels*
 - **Xia Liu**: *Dynamic local operations and classical communication for automated entanglement manipulation*
 - **Ziao Tang**: *Simulation of adjoints and Petz recovery maps for unknown quantum channels*
@@ -181,7 +357,7 @@ A PDF version of the complete program is available here: <a href="/program/BIID1
 - **Dier Tang**: *Universal feature selection with noisy observations and weak symmetry conditions*
 - **Xiaodie Lin**: *Quantum metrology under indistinguishable noise*
 - **Lingna Wang**: *Tight tradeoff relation and optimal measurement for multi-parameter quantum estimation*
-- **Jinshi Fu**: *Bounding the state of operator powers with weighted norm*
+- **Jinshi Fu**: *Dimension free L1-Poincaré on qubits*
 - **Jiayi Zhao**: *Distilling unitary operations: A no-go theorem and minimal realization*
 - **Lijun Wang**: *Quantitative equivalence between hypercontractivity and strong data processing inequality for quantum channels*
 - **Chengkai Zhu**: *Entanglement cost of bipartite quantum channel discrimination under positive partial transpose operations*
@@ -197,6 +373,6 @@ A PDF version of the complete program is available here: <a href="/program/BIID1
 - **Xueyuan Hu**: *Gaussian time-translation covariant operations: structure, implementation, and thermodynamics*
 - **Long Zhao**: *Improved lower bounds on MLSI constants of depolarizing semigroups via Pimsner-Popa index*
 - **Chenfeng Cao**: *Sudden death of entanglement, rebirth of magic*
-0:{"buildId":"ogci9pnj55HkMVrwU03Eu","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+0:{"buildId":"y4q-wGUBgBwexSLiT9nvX","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null
