@@ -2,7 +2,7 @@
 2:I[2977,["905","static/chunks/905-e19454af5060a141.js","547","static/chunks/547-2aecefd6c9be387a.js","182","static/chunks/app/%5Bslug%5D/page-4be5255fed5f666a.js"],"default"]
 5:I[484,[],"OutletBoundary"]
 6:"$Sreact.suspense"
-3:Ta0e4,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
+3:Ta19e,<!-- <nav aria-label="Program sections" style="display: flex; flex-wrap: nowrap; gap: 0.9rem; overflow-x: auto; white-space: nowrap; margin: 0.25rem 0 1.5rem; padding: 0.65rem 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
   <a href="#schedule-at-a-glance">Schedule at a Glance</a>
   <a href="#invited-speakers">Invited Speakers</a>
   <a href="#program">Program</a>
@@ -482,7 +482,7 @@ A PDF version of the complete program is available here: <a href="/program/compl
         <tr class="program-break"><th class="program-time" scope="row">11:45-13:30</th><td><strong>Lunch Break (Buffet)</strong></td></tr>
         <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 1</th><td>Chair: Afham</td></tr>
         <tr class="program-talk"><th class="program-time" scope="row">13:30-14:00</th><td><strong>Bartosz Regula</strong>: <em>Rethinking quantum smooth entropies: tight one-shot analysis of quantum privacy amplification</em> <a class="program-slide-link" href="/slides/Day%202/Bartosz%20Regula%20-%20Rethinking%20quantum%20smooth%20entropies_tight%20one-shot%20analysis%20of%20quantum%20privacy%20amplification.pdf" target="_blank" rel="noopener noreferrer">(Click here for PDF)</a></td></tr>
-        <tr class="program-talk"><th class="program-time" scope="row">14:00-14:30</th><td><strong>Yongsheng Yao</strong>: <em>Tight any-shot quantum decoupling</em></td></tr>
+        <tr class="program-talk"><th class="program-time" scope="row">14:00-14:30</th><td><strong>Yongsheng Yao</strong>: <em>Tight any-shot quantum decoupling</em> <a class="program-slide-link" href="/slides/Day%202/Yongsheng%20Yao%20-%20Tight%20any-shot%20quantum%20decoupling.pdf" target="_blank" rel="noopener noreferrer">(Click here for PDF)</a></td></tr>
         <tr class="program-break"><th class="program-time" scope="row">14:30-15:00</th><td><strong>Coffee Break</strong></td></tr>
         <tr class="program-session"><th class="program-time" scope="row">Afternoon Session 2</th><td>Chair: Ryuji Takagi</td></tr>
         <tr class="program-talk"><th class="program-time" scope="row">15:00-15:30</th><td><strong>Ian George</strong>: <em>The strong converse exponent of composable randomness extraction against quantum side information</em></td></tr>
@@ -614,6 +614,6 @@ A PDF version of the complete program is available here: <a href="/program/compl
 - **Xueyuan Hu**: *Gaussian time-translation covariant operations: structure, implementation, and thermodynamics*
 - **Long Zhao**: *Improved lower bounds on MLSI constants of depolarizing semigroups via Pimsner-Popa index*
 - **Chenfeng Cao**: *Sudden death of entanglement, rebirth of magic*
-0:{"buildId":"Q3X4Xj0HgWYUGz7aakZR7","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+0:{"buildId":"lMRIs4HRJdqt5X3wvgIVx","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","$L2",null,{"config":{"type":"text","title":"Program","source":"program.md"},"content":"$3"}]}],null,"$L4"]}],"loading":null,"isPartial":false}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null
