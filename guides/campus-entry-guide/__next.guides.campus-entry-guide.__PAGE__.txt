@@ -3,5 +3,5 @@
 3:I[484,[],"OutletBoundary"]
 4:"$Sreact.suspense"
 :HL["/_next/static/css/44905043e6e62bbf.css","style"]
-0:{"buildId":"zN4ND6m8hFGVFwgBv9GsN","rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Campus Entry Guide","description":"Review the campus entry reservation instructions below before arriving at CUHK-Shenzhen.","fileUrl":"/guides/BIID14-campus-entry-guide.pdf","downloadFileName":"BIID14-campus-entry-guide.pdf"}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/44905043e6e62bbf.css","precedence":"next"}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"eeRfwFlcTojPPHAWPKO2E","rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Campus Entry Guide","description":"Review the campus entry reservation instructions below before arriving at CUHK-Shenzhen.","fileUrl":"/guides/BIID14-campus-entry-guide.pdf","downloadFileName":"BIID14-campus-entry-guide.pdf"}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/44905043e6e62bbf.css","precedence":"next"}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
